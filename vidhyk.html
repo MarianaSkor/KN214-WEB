@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TravelAgency</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/form.css " type="text/css" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/media.css " type="text/css" charset="utf-8">
+        <link href="www/images/palm_icon.ico" rel="shortcut icon" type="image/x-icon">  
+    </head>
+    <body>
+      <div id="wrapper">
+          <div id="content">
+              <header class="f_header">
+                <div id="logo">
+                  <a href="main.html" title="На головну"> <img src="images/logo.png" title="Travel" alt="TravelAgency">
+                    <span >TravelAgency</span>
+                  </a> 
+                </div>
+              </header>
+              <nav id="dws-menu" class="d_menu">
+                <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+                <label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Меню</label>
+                  <ul>
+                    <li><a href="main.html">Головна</a></li>
+                    <li><a href="countries.html" >Країни</a></li>
+                    <li>
+                      <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1">
+                      <a href="main.html">Типи відпочинку</a>
+                      <label for="sub_m1" class="toggleSubmenu"><i class="fa"></i></label>
+                      <ul>
+                        <li><a href="main.html">Весільні подорожі</a></li>
+                        <li><a href="main.html">Індивідуальні тури</a></li>
+                        <li><a href="main.html">Тури вихідного дня</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="vidhyk.html">Залишити відгук</a></li>
+                    <li><a href="#about_us">Про нас</a></li>
+                  </ul>
+                </nav>
+                <div class="vidhyk">
+                    <div style="clear: both"><br></div>
+                    <form class="form" id="form_" method="post">
+                      <div>
+                          <label for="subject"  id="wrong_s">Тема повідомлення</label>
+                          <input type="text" name="subject" placeholder="Тема повідомлення"/>
+                      </div>
+                      <div>
+                          <label for="name" id="wrong_n">Введіть ім'я</label>
+                          <input type="text" name="name" placeholder="Введіть ім'я"/>
+                      </div>
+                      <div>
+                          <label for="email">Email</label>
+                          <input type="email" name="email" placeholder="adress@example.com"/>
+                          <i id="wrong_e"></i>
+                      </div>
+                      <div>
+                          <label for="message">Введіть ваше повідомлення</label>
+                          <textarea name="message" placeholder="Введіть ваше повідомлення"></textarea>
+                      </div>
+                      <div>
+                          <button type = "submit" class="submit_f" >Submit</button>
+                      </div>
+                    </form>
+                </div> 
+              </div>
+              <footer class="foot">
+                <div id="slogan">
+                    <span>The world has less time left. Travel now.</span>
+                </div>
+                <div id="about_us">
+                  <p>Наша адреса</p>
+                  <p>79000, м. Львів,вул. Січових Стрільців, 4</p>
+                  <p>+38 098 748 71 77</p>
+                  <p>+38 032 297 17 72</p>
+                  <p> TravelAgencygmail.com</p>
+                </div>
+              </footer>
+        </div>
+        <script src="scripts/form.js"></script>       
+        <script src="scripts/main.js"></script>       
+    </body>
+</html>

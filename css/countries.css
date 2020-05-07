@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One&display=swap');
+
+table {
+    margin: auto;
+}
+
+td{
+    width: 200px;
+}
+
+th{
+    background-color: rgb(245, 191, 104);
+}
+td, th{
+    border:1px solid #2F4F4F;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    margin: auto;
+}
+
+.collapsed{
+    border-collapse: collapse;
+}
+
+caption{
+    font-family: 'Suez One',serif;
+    color:  #2F4F4F;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Suez One',serif;
+    color:#fff;
+    font-weight: normal;
+    font-size: 1.3em;
+    
+}

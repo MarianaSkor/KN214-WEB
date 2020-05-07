@@ -1,0 +1,52 @@
+form{
+    width: 60%;
+    margin-left: 35%; 
+    float:left;
+}
+
+form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: left;
+    clear: both;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+form input:focus, form textarea:focus{border: 2px solid #f58b8b;}
+
+form textarea{
+    width: 40%;
+    height: 40%;
+    clear: both;
+    background-color: #fafafa;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.7em;
+} 
+
+.submit_f{
+    padding: 10px;
+    background-color: #f37a7a;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 45%;
+    font-size: 1.2em;
+    color:#fff;
+    width: 120px;
+    height: 55px;
+}
+
+.submit_f:hover{
+    background-color: #bdf37a;
+}

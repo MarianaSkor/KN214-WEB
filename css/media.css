@@ -1,0 +1,42 @@
+.d_menu [type="checkbox"],
+.d_menu label.toggleSubmenu{
+    display: none;
+}
+
+.d_menu label.toggleMenu{
+    
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.d_menu label.toggleMenu .fa{
+    position: absolute;
+    top:15px;
+    left: 12px;
+    font-size: 25px;
+}
+@media all and (max-width:800px){
+   .d_menu{
+        overflow: hidden;
+    }
+    .d_menu ul{
+        display: none;
+    }
+    .d_menu label.toggleMenu{
+        display: block;
+    }
+   input.toggleMenu:checked +  label.toggleMenu{
+        background: #000;
+        color: #fff;
+    }
+    input.toggleMenu:checked ~ ul{
+     display: block;
+    }
+    .d_menu li:hover > ul{
+        display: contents;
+    }
+}
